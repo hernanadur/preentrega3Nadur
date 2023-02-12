@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hernanadur/PreEntrega2Nadur.git"
+    "url": "git+https://github.com/hernanadur/preentrega3Nadur.git"
   },
   "author": "hernan nadur",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hernanadur/PreEntrega2Nadur/issues"
+    "url": "https://github.com/hernanadur/Preentrega3Nadur/issues"
   },
-  "homepage": "https://github.com/hernanadur/PreEntrega2Nadur#readme",
+  "homepage": "https://github.com/hernanadur/Preentrega3Nadur#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
