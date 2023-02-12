@@ -6,7 +6,7 @@ body {
   font-family: "Allerta Stencil", sans-serif;
   text-align: center;
   overflow-x: hidden;
-  background-image: url(../assets/images/fondos/paisaje3.jpeg);
+  background-image: url(../assets/images/fondos/paisaje3.webp);
   background-size: cover; }
 
 header {
@@ -124,16 +124,24 @@ fieldset input {
     background-color: white;
     color: black;
     transform: translate(-6px, -6px); }
+  main section article figure img {
+    width: 250px;
+    height: 150px;
+    margin: 5px 5px; }
+  main section article figure iframe {
+    width: 280px;
+    height: 190px;
+    margin: 5px; }
   main aside ul li {
     display: inline-block;
     width: 200px;
     padding: 5px;
     border: 1px solid white;
     background-color: black; }
-  main section article figure img {
-    width: 250px;
-    height: 150px;
-    margin: 5px 5px; }
+  footer div ul li a img {
+    width: 25px;
+    height: 25px;
+    margin: 0px 1px; }
   .ImagenesGaleria {
     width: 250px;
     height: 150px;
@@ -142,41 +150,36 @@ fieldset input {
     position: fixed;
     bottom: 0px;
     left: 140px;
-    padding: 2px; }
-  main section article figure iframe {
-    width: 280px;
-    height: 190px;
-    margin: 5px; }
-  footer div ul li a img {
-    width: 25px;
-    height: 25px;
-    margin: 0px 1px; } }
+    padding: 2px; } }
 
 @media screen and (min-width: 575px) {
-  button {
-    position: fixed;
-    bottom: 0px;
-    left: 370px;
-    padding: 2px; }
   main section article figure iframe {
     width: 500px;
     height: 300px; }
-  footer div ul li a img {
-    width: 50px;
-    height: 50px;
-    margin: 0px 5px; }
   main aside ul li {
     display: inline-block;
     width: 200px;
     padding: 5px;
     border: 1px solid white;
-    background-color: black; } }
+    background-color: black; }
+  footer div ul li a img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px; }
+  button {
+    position: fixed;
+    bottom: 0px;
+    left: 370px;
+    padding: 2px; } }
 
 @media screen and (min-width: 768px) {
   header nav ul li {
     width: 130px; }
   header nav ul li a:hover {
     width: 130px; }
+  main section article figure iframe {
+    width: 700px;
+    height: 300px; }
   main aside ul li {
     width: 135px; }
   footer div ul li a img {
@@ -185,77 +188,71 @@ fieldset input {
     position: fixed;
     bottom: 0px;
     left: 590px;
-    padding: 2px; }
-  main section article figure iframe {
-    width: 700px;
-    height: 300px; } }
+    padding: 2px; } }
 
 @media screen and (min-width: 1024px) {
-  main section article figure img {
-    width: 300px;
-    height: 250px;
-    margin: 5px 5px; }
-  .ImagenesGaleria {
-    width: 300px;
-    height: 250px;
-    margin: 5px 5px; }
-  main section article figure img {
-    width: 300px;
-    height: 250px; }
   header nav ul li {
     width: 180px; }
   header nav ul li a:hover {
     width: 180px; }
+  main section article figure img {
+    width: 300px;
+    height: 250px;
+    margin: 5px 5px; }
+  main section article figure iframe {
+    width: 900px;
+    height: 450px; }
   main aside ul li {
     width: 170px; }
   footer div ul li a img {
     margin: 0px 35px; }
+  .ImagenesGaleria {
+    width: 300px;
+    height: 250px;
+    margin: 5px 5px; }
   button {
     position: fixed;
     bottom: 0px;
     left: 850px;
-    padding: 2px; }
-  main section article figure iframe {
-    width: 900px;
-    height: 450px; } }
+    padding: 2px; } }
 
 @media screen and (min-width: 1200px) {
   header figure img {
     width: 300px;
     height: 150px;
     margin: 0px; }
-  main section article figure img {
-    width: 400px;
-    height: 300px;
-    margin: 20px 20px; }
-  .ImagenesGaleria {
-    width: 400px;
-    height: 300px;
-    margin: 20px 20px; }
   header nav ul li {
     width: 210px; }
   header nav ul li a:hover {
     width: 210px; }
+  main section article figure img {
+    width: 400px;
+    height: 300px;
+    margin: 20px 20px; }
+  main section article figure iframe {
+    width: 1100px;
+    height: 500px; }
   main aside ul li {
     width: 210px; }
   footer div ul li a img {
     margin: 0px 50px; }
+  .ImagenesGaleria {
+    width: 400px;
+    height: 300px;
+    margin: 20px 20px; }
   button {
     position: fixed;
     bottom: 0px;
     left: 1030px;
-    padding: 2px; }
-  main section article figure iframe {
-    width: 1100px;
-    height: 500px; } }
+    padding: 2px; } }
 
 @media screen and (min-width: 1400px) {
   main aside ul li {
     width: 260px; }
+  footer div ul li a img {
+    margin: 0px 70px; }
   button {
     position: fixed;
     bottom: 0px;
     left: 1300px;
-    padding: 2px; }
-  footer div ul li a img {
-    margin: 0px 70px; } }
+    padding: 2px; } }
