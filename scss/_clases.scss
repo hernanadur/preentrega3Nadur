@@ -1,0 +1,34 @@
+.titulosGrande{
+    font-size: 2rem;
+    padding: 10px;
+}
+.BordeArticulo{
+    width: 98vw;
+    margin: 5px;
+    border: 1px groove black;
+}
+.ImagenesGaleria{
+    width: 250px;
+    height: 150px;
+}
+button{
+    position:fixed; bottom: 0px; left: 400px;
+    text-decoration: none;
+    color: white;
+    background-color: $bg-menu;
+    border: $borde-menu;
+    padding: 2px;
+    font-family: $fuente-especial;
+}
+fieldset div textarea{
+    background-color: $bg-menu;
+    color: white;
+    font-family: $fuente-general;
+}
+fieldset input{
+    background-color: $bg-menu;
+    color: white;
+    border: $borde-menu;
+    padding: 2px;
+    font-family: $fuente-general;
+}

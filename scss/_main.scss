@@ -1,0 +1,37 @@
+main{
+    background-color: $bg-especial;
+    section{
+        h1{
+            text-decoration: underline;
+            font-family: $fuente-especial;
+        }
+        h2{
+            text-decoration: underline;
+        }
+        article{
+            figure{
+                img{
+                    width: 250px; 
+                    height: 150px ; 
+                    margin: 5px 80px; 
+                    border: white solid 2px;
+                }
+                iframe{
+                    margin: 20px; 
+                }
+            }    
+        }
+        div{
+            img{
+                width: 250px; 
+                height: 150px ; 
+                margin: 5px 80px; 
+                border: white solid 2px;
+
+            }
+        }
+    }
+    aside{
+        @include barra-cursos;
+    }
+}

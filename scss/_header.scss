@@ -1,0 +1,13 @@
+header{
+    background-color: $bg-especial;
+    figure{
+        img{
+            width: 300px; 
+            height: 150px; 
+            margin: 0px; 
+        }
+    }
+    nav{
+        @include barra-navegacion;
+    }
+}

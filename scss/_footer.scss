@@ -1,0 +1,7 @@
+footer{
+    font-weight: bold;
+    background-color: $bg-especial;
+    div{
+        @include auspicios-footer;
+    }
+}
