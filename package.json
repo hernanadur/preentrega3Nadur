@@ -1,0 +1,28 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Proyecto final Nadur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernanadur/gesm.git"
+  },
+  "author": "hernan nadur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernanadur/gesm/issues"
+  },
+  "homepage": "https://github.com/hernanadur/gesm#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}

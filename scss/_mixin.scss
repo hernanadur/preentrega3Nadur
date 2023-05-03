@@ -1,0 +1,57 @@
+@mixin barra-navegacion{
+    ul{
+        li{
+            display: inline-block;
+            width: 110px;
+            height: 35px;
+            padding: 5px; 
+            border: $borde-menu;
+            background-color: $bg-menu;
+            a{
+                text-decoration: none;
+                color: white;
+                &:hover {
+                    display: inline-block;
+                    width: 110px;
+                    border: $borde-menu-invertido;
+                    background-color: $bg-menu-invertido;
+                    color: black;
+                }
+
+            }
+        }
+    }
+}
+@mixin auspicios-footer{
+    ul{
+        li{
+            display: inline-block;
+            margin: 5px;
+            a{
+                text-decoration: none;
+                color: black;
+              img{
+                width: 50px; 
+                height: 50px;
+                margin: 0px 5px;
+
+              }  
+            }
+        }
+    }
+}
+@mixin barra-cursos{
+    ul{
+        li{
+            display: inline-block;
+            width: 500px;
+            padding: 5px;
+            border: $borde-menu;
+            background-color: $bg-menu;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

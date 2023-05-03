@@ -1,0 +1,77 @@
+.titulosGrande{
+    font-size: 2rem;
+    padding: 10px;
+}
+.BordeArticulo{
+    width: 98vw;
+    margin: 5px 5px;
+    border: 1px groove black;
+    background-image: $bg-oscuro;
+}
+.FondoContacto{
+    width: 96vw;
+    margin: 0px auto;
+    border: 1px groove black;
+    background-image: $bg-oscuro;
+}
+.ImagenesGaleria{
+    width: 250px;
+    height: 150px;
+}
+.Iconos{
+    width: 50px; 
+    height: 50px;
+    margin: 0px 50px;
+}
+.boton{
+    position:fixed; bottom: 200px; left: 400px;
+    text-decoration: none;
+    color: black;
+    background-color: $bg-menu-invertido;
+    border: $borde-menu-invertido;
+    padding: 10px;
+    font-family: $fuente-especial;
+}
+.botonForm{
+    text-decoration: none;
+    color: black;
+    background-color: $bg-menu-invertido;
+    border: $borde-menu-invertido;
+    padding: 10px;
+    font-family: $fuente-especial;
+}
+.botonForminvert{
+    text-decoration: none;
+    color: white;
+    background-color: $bg-menu;
+    border: $borde-menu;
+    padding: 10px;
+    font-family: $fuente-especial;
+}
+.tableform{
+    color: black;
+    background-color: $bg-especial;
+    font-family: $fuente-especial;
+
+}
+fieldset div textarea{
+    background-color: $bg-menu;
+    color: white;
+    font-family: $fuente-general;
+}
+fieldset input{
+    background-color: $bg-menu;
+    color: white;
+    border: $borde-menu;
+    padding: 2px;
+    font-family: $fuente-general;
+    font-size: 0.8rem;
+}
+fieldset div input{
+    background-color: $bg-menu;
+    color: white;
+    border: $borde-menu;
+    padding: 2px;
+    font-family: $fuente-general;
+    font-size: 0.8rem;
+}
